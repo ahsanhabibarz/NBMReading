@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="24dp"
+    android:layout_marginStart="24dp"
+    android:layout_marginTop="24dp"
+    android:text="Course Name (Example : CSE, EEE, BIO)"
+    android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/className"
+        style="@style/input_text_style"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:gravity="left"
+        android:inputType="textPersonName"
+        android:paddingBottom="4dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="4dp"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="Course ID (Example : 115, 116, 299)"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/courseID"
+        style="@style/input_text_style"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:gravity="left"
+        android:inputType="textPersonName|number"
+        android:paddingBottom="4dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="4dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="Semester (Example : Spring, Summer)"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/SemesterName"
+        style="@style/input_text_style"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:gravity="left"
+        android:inputType="textPersonName"
+        android:paddingBottom="4dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="4dp" />
+
+</LinearLayout>

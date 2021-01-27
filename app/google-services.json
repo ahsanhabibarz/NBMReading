@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "443968510256",
+    "firebase_url": "https://nbmreadingapp.firebaseio.com",
+    "project_id": "nbmreadingapp",
+    "storage_bucket": "nbmreadingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443968510256:android:a6c615f50335cff1",
+        "android_client_info": {
+          "package_name": "com.example.habii.nbmreadingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443968510256-lkdjqv31a7275giovmerje1in2pgp94n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.habii.nbmreadingapp",
+            "certificate_hash": "ce981d56405430a5037f688a3f8e988b7491a9d5"
+          }
+        },
+        {
+          "client_id": "443968510256-tcv5ik7mg5i3opo9gv6lndoaqo3p3pnc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCydKtwS3Vdd8SgkXCJrTUej2n5c9uII4o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443968510256-tcv5ik7mg5i3opo9gv6lndoaqo3p3pnc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

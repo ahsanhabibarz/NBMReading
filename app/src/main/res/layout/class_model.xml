@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/Classname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_weight="1"
+            android:text="NBM-CSE-215-5-Summer-18"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/unknown"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/unknown"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_margin="16dp"
+            android:background="#000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/f_class_ic" />
+
+
+        <TextView
+            android:id="@+id/coursename"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="CSE-225"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="8sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/unknown"
+            app:layout_constraintEnd_toEndOf="@+id/unknown"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/unknown" />
+
+
+        <TextView
+            android:id="@+id/sCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:text="0 Students"
+            android:textColor="#000"
+            android:textSize="10sp"
+            app:layout_constraintStart_toEndOf="@+id/unknown"
+            app:layout_constraintTop_toBottomOf="@+id/Classname" />
+
+        <TextView
+            android:id="@+id/bCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="20dp"
+            android:text="0 Books"
+            android:textColor="#000"
+            android:textSize="10sp"
+            app:layout_constraintStart_toEndOf="@+id/sCount"
+            app:layout_constraintTop_toBottomOf="@+id/Classname" />
+
+
+        <TextView
+            android:id="@+id/reqCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/alert_shape"
+            android:paddingStart="6dp"
+            android:paddingTop="2dp"
+            android:paddingEnd="6dp"
+            android:paddingBottom="2dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</LinearLayout>
